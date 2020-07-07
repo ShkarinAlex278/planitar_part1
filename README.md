@@ -5,12 +5,13 @@ The server can be built using "npm start".
 The server works as specified in the task.
 
 # API:
-GET /articles/ 
+### GET /articles/ 
 
 HTTP/1.1 200 OK 
 Content-Type: application/json 
  
-PUT /articles/:name 
+### PUT /articles/:name 
+
 If a new article was created: 
 HTTP/1.1 201 Created 
 No payload 
@@ -20,7 +21,9 @@ updated: 
 HTTP/1.1 200 OK 
 No payload 
 
-GET /articles/:name If the article is not found: 
+### GET /articles/:name 
+
+If the article is not found: 
 HTTP/1.1 404 Not Found 
 No payload 
  

@@ -4,9 +4,7 @@ Part I created a web server that implements an API to run a wiki. Node.js and fr
 The server can be built using "npm start".
 The server works as specified in the task.
 
-# Technologies used for the projects:
-API 
-
+# API:
 GET /articles/ 
 
 HTTP/1.1 200 OK 
